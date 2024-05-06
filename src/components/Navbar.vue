@@ -13,7 +13,7 @@
       <MenuButton class="flex items-center">
         <img src="https://randomuser.me/api/portraits/men/37.jpg" alt="" class="rounded-full w-8">
         <small>John Smith</small>
-        <ChevronDownIcon class="h-5 w-5 text-violet-200 hover:text-violet-100" aria-hidden="true" />
+        <ChevronDownIcon class="h-5 w-5 text-indigo-200 hover:text-indigo-100" aria-hidden="true" />
       </MenuButton>
 
       <transition enter-active-class="transition duration-100 ease-out" enter-from-class="transform scale-95 opacity-0"
@@ -24,7 +24,7 @@
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
             <button :class="[
-              active ? 'bg-violet-500 text-white' : 'text-gray-900',
+              active ? 'bg-indigo-600 text-white' : 'text-gray-900',
               'group flex w-full items-center rounded-md px-2 py-2 text-sm',
             ]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -39,7 +39,7 @@
 
             <MenuItem v-slot="{ active }">
             <button :class="[
-              active ? 'bg-violet-500 text-white' : 'text-gray-900',
+              active ? 'bg-indigo-600 text-white' : 'text-gray-900',
               'group flex w-full items-center rounded-md px-2 py-2 text-sm',
             ]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
